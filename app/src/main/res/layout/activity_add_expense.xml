@@ -1,0 +1,44 @@
+<!-- activity_add_expense.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"/>
+
+    <EditText
+        android:id="@+id/edit_text_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type"/>
+
+    <EditText
+        android:id="@+id/edit_text_product_or_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product or Service"/>
+
+    <EditText
+        android:id="@+id/edit_text_supplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Supplier"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"/>
+</LinearLayout>
