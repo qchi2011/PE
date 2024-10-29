@@ -14,22 +14,51 @@ public class Expense {
     private String productOrService;
     private String supplier;
 
-    // Getters và Setters
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public int getId() {
+        return id;
+    }
 
-    public String getDate() { return date; }
-    public void setDate(String date) { this.date = date; }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
+    public String getDate() {
+        return date;
+    }
 
-    public String getType() { return type; }
-    public void setType(String type) { this.type = type; }
+    public void setDate(String date) {
+        this.date = date;
+    }
 
-    public String getProductOrService() { return productOrService; }
-    public void setProductOrService(String productOrService) { this.productOrService = productOrService; }
+    public String getDescription() {
+        return description;
+    }
 
-    public String getSupplier() { return supplier; }
-    public void setSupplier(String supplier) { this.supplier = supplier; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getProductOrService() {
+        return productOrService;
+    }
+
+    public void setProductOrService(String productOrService) {
+        this.productOrService = productOrService;
+    }
+
+    public String getSupplier() {
+        return supplier;
+    }
+
+    public void setSupplier(String supplier) {
+        this.supplier = supplier;
+    }
 }
